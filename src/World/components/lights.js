@@ -5,6 +5,10 @@ function createLights() {
 
   // pindah  posisi cahaya ke kanan, atas, dan lebih kedepan.
   light.position.set(10, 10, 10);
+
+  // experiment light.position
+  // light.position.set(0, 2, 2);
+
   return light;
 }
 
